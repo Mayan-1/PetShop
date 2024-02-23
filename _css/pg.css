@@ -1,0 +1,142 @@
+body {
+    width: fit-content;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+p{
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #733D29;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    height: 100px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #F2D6BD;
+    font-weight: bold;
+}
+
+#section-boas-vindas{
+    padding: 25px;
+    width: 600px;
+   display: grid;
+   grid-template-columns: 200px 200px;
+   justify-content: space-between;
+   place-items: center;
+   margin-top: 100px;
+   margin-left: 820px;
+}
+
+.content-section{
+    width: 400px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+.content-section a{
+    display: inline-block;
+    text-decoration:  none;
+    color: white;
+    background-color: #BF895A;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+#section-relato{
+    background-color: #733D29;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 1010px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 110px;
+    border-radius: 20px;
+    color: #fff;
+    font-style: italic;
+
+}
+
+
+#section-relato div{
+    width: 300px;
+}
+
+#section-relato img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+/* .carousel {
+    display: flex;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.carousel img {
+    width: 50%;
+    height: 200px;
+    margin-right: 10px;
+} */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.container {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;  /*ou space-between */
+    align-items: center;
+}
+
+.container div {
+    text-align: justify;
+    padding: 5px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
